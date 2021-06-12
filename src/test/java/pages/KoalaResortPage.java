@@ -19,7 +19,7 @@ public class KoalaResortPage {
         public WebElement userNameTextBox;
 
         @FindBy(id = "Password")
-        public WebElement password;
+        public WebElement passwordTextBox;
 
         @FindBy(id = "btnSubmit")
         public WebElement loginButton;
