@@ -11,6 +11,10 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
+    private Driver(){
+        // Artik Driver classindan bir obje olusturulamaz ve güvenli hale getirdik
+        //Bunun SINGLETON denir.
+    }
 
     static private WebDriver driver;
 
